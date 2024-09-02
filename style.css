@@ -1,0 +1,827 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    max-width: 100%;
+    z-index: 1000;
+    background-color: white;
+    padding: 0 30px;
+}
+
+.head a{
+    position: relative;
+}
+
+.head span{
+    position: absolute;
+    bottom: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.nav a{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav a:hover{
+    color: darkgreen;
+}
+
+.head-btn button{
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.head-btn button:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+
+.burger {
+    width: 42px;
+    height: 35px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display:none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+}
+
+#content1{
+    background-image: url(image/african-boy-villagenew.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#content1 h1 {
+    font-size: 66px;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+#content1 p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: bolder;
+    position: absolute;
+    top: 73%;
+    left: 7%;
+}
+
+#content1 button{
+    background-color: darkgreen;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 83%;
+    left: 7%;
+    color: white;
+    font-size: 16px;
+}
+
+#content1 button:hover {
+    background-color: white;
+    color: darkgreen;
+
+}
+
+.about1{
+    margin: auto;
+}
+
+.about1 h1 {
+    margin: 30px auto;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 30px;
+    max-width: 45vw;
+}
+
+#content2{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mission {
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.mission img {
+    width: 150px;
+    height: 150px;
+}
+
+.mission h3 {
+    font-size: 25px;
+    padding: 20px ;
+}
+
+.mission p {
+    font-size: 18px;
+}
+
+.our-goal h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 30px; 
+}
+
+#about2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+}
+
+#goal img{
+    max-width: 500px;
+    min-height: 500px;
+}
+ 
+#goal2 {
+    max-width: 600px;
+    padding-left: 30px;
+}
+
+#goal2 h6 {
+    font-size: 21px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    color: #0c7538;
+    padding-bottom: 25px;
+}
+
+#goal2 p {
+    font-size: 20px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.btn button {
+    margin-left: 10px;
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.btn button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.content4 {
+    background-color: rgb(233, 227, 227);
+    margin: 30px auto 0;
+    padding: 40px 50px;
+    box-shadow: 0 -8px 8px rgba(233, 227, 227, 0.7);
+    min-width: 90vw;
+}
+
+.content4 h2 {
+   padding-bottom: 20px;
+   font-size: 30px;
+}
+ 
+.outreach {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outreach-item {
+    text-align: center;
+}
+
+.outreach-item img {
+    width: 380px;
+    height: 220px;
+}
+
+.outreach-item h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.outreach-item p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 0 30px;
+}
+
+.box {
+    width: 380px;
+    background-color: #999797;
+    padding: 10px 10px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+
+}
+
+.progress {
+    width: 340px;
+    margin:20px auto;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+.progressbar1 {
+    width: 130px;
+    background-color: #0c7538;
+    border-radius: 25px;
+    height: 20px;
+}
+
+.progressbar2 {
+    width: 260px;
+    background-color: #0c7538;
+    border-radius: 25px;
+    height: 20px;
+}
+
+.progressbar3 {
+    width: 170px;
+    background-color: #0c7538;
+    border-radius: 25px;
+    height: 20px;
+}
+
+.donate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.donate h5 {
+    font-size: 18px;
+}
+
+.box .donate h6 {
+    font-size: 16px;
+}
+
+.target {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.target h5 {
+    font-size: 18px;
+}
+
+.target h6 {
+    font-size: 16px;
+}
+
+#content7 {
+    background-color: darkgreen;
+    
+    margin-top: 50px;
+    color: #fff;
+    padding: 30px;
+}
+
+.team {
+    text-align: center;
+    padding: 20px;
+    margin: auto; 
+    font-size: 18px;
+}
+
+.team-item{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    max-width: 90vw;
+}
+
+.team-image{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; 
+}
+
+.team-image p{
+    font-size: 16px;
+}
+
+.team-image h4{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.team-image img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.team p{
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+#content10 {
+    width: 80%;
+    height: 200px;
+    box-shadow: 7px 5px 3px rgba(170, 170, 170, 0.3);
+    background-color: lightgreen;
+    margin: 50px auto;
+    color: #fff;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.holder-item img {
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.holder-item h1 {
+    font-size: 20px;
+}
+
+.holder-item p {
+    font-size: 16px;
+    margin-top: -20px;
+}
+ 
+#content11 {
+    max-width: 80vw;
+    height: 460px;
+    position: relative;
+    margin: 100px auto 100px;
+    overflow-x: hidden;
+}
+
+.our {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.our button{
+    background: transparent;
+    border: 2px darkgreen solid;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.our-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(1500px);
+    transition: .3s;
+}
+
+.our-content .our-content-right img{
+    width: 550px;
+    height: 300px;
+}
+
+.our-content-left{
+    flex-basis: 50%;
+}
+
+.our-content-left h2{
+    font-size: 18px;
+}
+
+.our-content-left p{
+    font-size: 14px;
+    padding: 12px;
+}
+
+.our-content .our-content-left p:nth-child(4){
+    font-size: 14px;
+    padding: 12px 12px 25px 12px;
+}
+
+.our-content-left a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+}
+
+.our-content-left a:hover{
+    background-color: darkgreen;
+    color: white;
+}
+.our-content-right{
+    flex-basis: 50%;
+}
+
+#approach {
+    transform: translateX(0px);  
+}
+
+#btn1{
+    color: white;
+    background-color: darkgreen;
+} 
+
+#content13 {
+    width: 85%;      
+    margin: -30px auto 0;
+}
+
+.proj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+    text-align: center;
+}
+
+.proj h3 {
+  padding: 20px;
+}
+
+.proj p {
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.proj-item1 {
+    background-color: darkgreen;
+    width: 600px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.proj-item2 {
+    background-color: #27ce27;
+    width: 600px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#content14 {
+    width: 98vw;
+    margin: 30px auto;
+    height: 500px;
+}
+
+.map iframe {
+    width: 98vw; 
+    height: 500px;
+}
+
+#footer {
+    
+    background-image: url(image/african-boy-villagenew.jpg);
+    position: relative;
+    color: white;
+    background-repeat: no-repeat;
+    filter: grayscale(30%);
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    overflow-x: hidden;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-item1 h2 {
+    padding-top: 30px;
+    line-height: 40px;
+}
+
+.subs button {
+    padding: 10px 70px;
+    background-color: darkgreen;
+    border: 2px solid darkgreen;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.subs button:hover {
+    background-color: #fff;
+    color: darkgreen;
+}
+
+.footer-item1 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    display: block;
+    padding-bottom: 10px;
+    
+}
+
+.footer-item1 a:hover {
+    color: darkgreen;
+}
+
+.footer-item1 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-item1 p {
+    font-size: 16px;
+    word-spacing: 2px;
+    padding-bottom: 7px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #header { 
+        justify-content: space-between;
+    }
+
+    .head span{
+        font-size: 16px;
+    }
+
+    .nav{
+        gap: 10px;
+        padding-left: 8px;
+    }
+
+    .nav a{
+        font-size: 14px;
+    }
+
+    #about2{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    #goal2 p {
+        font-size: 18px;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    #content11 {
+        height: 650px;
+    }
+
+    .outreach{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .outreach-item p{
+        width: 400px;
+    }
+
+    .our-content{
+        flex-direction: column-reverse;
+    }
+
+    .proj-item1 {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 0;
+        
+    }
+    
+    .proj-item2 {
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+    }
+} 
+
+@media (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        background-color: darkgreen;
+        height: 92vh;
+        flex-direction: column;
+        z-index: 100;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 100%;
+        display: none;
+        gap: 50px;
+        overflow-x: hidden;
+    }
+
+    .nav a {
+        font-size: 18px;
+        gap: 10px;
+        color: #fff;        
+        margin-right: 50px;        
+    }
+    .nav a:hover {
+        color: #d3cfcf;               
+    }
+
+    .nav a:first-child {
+        margin-top: 50px;               
+    }
+
+    .head-btn button{
+        display: none;
+    }
+    
+    #content1 h1 {
+        font-size: 40px;
+    }
+    
+    #content1 p {
+        font-size: 16px;
+        width: 400px;
+        top: 55%;
+    }
+
+    #content1 button{
+        top: 65%;
+    }
+
+    .our-goal h2 {
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about1 h1 {
+        word-spacing: 0;
+        font-size: 20px;
+        max-width: 80vw;
+    }
+    
+    #goal img{
+        max-width: 390px;
+        min-height: 390px;
+    }
+
+    #content2{
+        flex-direction: column;
+    }
+
+    .mission {
+        
+        height: 300px;
+        
+    }
+
+    .mission h3 {
+        font-size: 18px;
+    }
+    
+    .mission p {
+        font-size: 16px;
+    }
+
+    .our-content .our-content-right img{
+        width: 450px;
+        height: 280px;
+    }
+
+    .footer-body {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.nav.nav-active{   
+    display: flex;
+}
+
+.close .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.close .line2{
+    opacity: 0;
+}
+
+.close .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* .overlay {
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+} */
+
+body.nav-active {
+    overflow: hidden;
+}
